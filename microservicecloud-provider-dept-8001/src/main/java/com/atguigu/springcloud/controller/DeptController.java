@@ -14,6 +14,18 @@ public class DeptController
     @Autowired
     private DeptService service;
 
+    @GetMapping(value="/dept/getadd/{dname}")
+    public boolean getAddPathVariable(@PathVariable("dname") String dname)
+    {
+        return service.getadd(dname);
+    }
+
+    @GetMapping(value="/dept/getadd")
+    public boolean getAddRequestParam(@RequestParam("dname") String dname)
+    {
+        return service.getadd(dname);
+    }
+
     @PostMapping(value="/dept/add")
     public boolean add(@RequestBody Dept dept)
     {

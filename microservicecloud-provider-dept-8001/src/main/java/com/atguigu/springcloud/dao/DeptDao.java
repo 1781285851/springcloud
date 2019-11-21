@@ -7,6 +7,8 @@ import com.atguigu.springcloud.entities.Dept;
 @Mapper
 public interface DeptDao
 {
+    public boolean getaddDept(String dname);
+
     public boolean addDept(Dept dept);
 
     public Dept findById(Long id);

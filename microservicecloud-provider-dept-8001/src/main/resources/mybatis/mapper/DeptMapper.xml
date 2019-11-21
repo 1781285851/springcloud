@@ -13,7 +13,9 @@
     <insert id="addDept" parameterType="Dept">
    INSERT INTO dept(dname,db_source) VALUES(#{dname},DATABASE());
   </insert>
-
+    <insert id="getaddDept" parameterType="String">
+   INSERT INTO dept(dname,db_source) VALUES(#{dname},DATABASE());
+  </insert>
 </mapper>
 
 

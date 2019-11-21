@@ -16,6 +16,11 @@ public class DeptServiceImpl implements DeptService
     private DeptDao dao ;
 
     @Override
+    public boolean getadd(String dname) {
+        return dao.getaddDept(dname);
+    }
+
+    @Override
     public boolean add(Dept dept)
     {
         return dao.addDept(dept);

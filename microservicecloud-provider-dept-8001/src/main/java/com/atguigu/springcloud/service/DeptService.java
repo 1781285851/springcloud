@@ -6,6 +6,7 @@ import com.atguigu.springcloud.entities.Dept;
 
 public interface DeptService
 {
+    public boolean getadd(String dname);
     public boolean add(Dept dept);
     public Dept    get(Long id);
     public List<Dept> list();
