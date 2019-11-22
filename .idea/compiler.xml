@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloudproviderdept8001" />
+        <module name="microservicecloudeureka7003" />
+        <module name="microservicecloudeureka7002" />
         <module name="microservicecloud-consumer-dept-80" />
         <module name="microservicecloud-provider-dept-8001" />
         <module name="microservicecloudapi" />
