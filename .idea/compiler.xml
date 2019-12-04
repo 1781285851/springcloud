@@ -16,6 +16,7 @@
         <module name="microservicecloudproviderdept8002" />
         <module name="microservicecloudproviderdept8001" />
         <module name="microservicecloudeureka7002" />
+        <module name="microservicecloudzuulgateway9527" />
         <module name="microservicecloudconsumerdeptfeign" />
         <module name="microservicecloudeureka7001" />
         <module name="microservicecloudconsumerhystrixdashboard" />
